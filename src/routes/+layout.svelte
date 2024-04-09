@@ -1,12 +1,10 @@
 <script>
 	import '../app.pcss';
-	import Navbar from '$lib/components/navbar/navbar.svelte';
+	import Navbar from '$lib/components/Navbar.svelte';
 </script>
 
-<div class="bg-white">
-	<header class="absolute inset-x-0 top-0 z-50">
-		<Navbar />
-	</header>
+<div class="bg-background">
+	<Navbar />
 	<main>
 		<slot />
 	</main>
