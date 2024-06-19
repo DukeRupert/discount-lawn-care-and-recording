@@ -4,7 +4,6 @@
 </script>
 
 <div class="bg-background">
-	<Navbar />
 	<main>
 		<slot />
 	</main>

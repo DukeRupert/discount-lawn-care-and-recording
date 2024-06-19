@@ -5,12 +5,13 @@
 	import LogoCloud from './(components)/LogoCloud.svelte';
 	import type { FeatureData } from './(components)/Features.svelte';
 	import Features from './(components)/Features.svelte';
-	import Pricing from './(components)/Pricing.svelte'
+	import Pricing from './(components)/Pricing.svelte';
 
 	const hero_data: HeroData = {
+		name: '406 Records',
 		title: 'Where Your Music Comes Alive',
 		subtext:
-			'Immerse your music in the raw beauty of Montana. 406 Records, your high-fidelity studio in the Elkhorn Mountains.'
+			'Coming soon! Immerse your music in the raw beauty of Montana. 406 Records, your high-fidelity studio in the Elkhorn Mountains.'
 	};
 
 	const logo_cloud_data: Band[] = [
@@ -122,10 +123,6 @@
 			}
 		]
 	};
-
 </script>
 
 <Hero data={hero_data} />
-<LogoCloud data={logo_cloud_data} />
-<Features data={feature_data} />
-<Pricing />
